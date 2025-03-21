@@ -1,0 +1,11 @@
+VIEW localized_sap_capire_incidents_Incidents AS SELECT
+  L.ID,
+  L.createdAt,
+  L.createdBy,
+  L.modifiedAt,
+  L.modifiedBy,
+  L.customer_ID,
+  L.title,
+  L.urgency_code,
+  L.status_code
+FROM sap_capire_incidents_Incidents AS L

@@ -1,0 +1,7 @@
+VIEW localized_sap_capire_incidents_Incidents_conversation AS SELECT
+  L.up__ID,
+  L.ID,
+  L."TIMESTAMP",
+  L.author,
+  L.message
+FROM sap_capire_incidents_Incidents_conversation AS L

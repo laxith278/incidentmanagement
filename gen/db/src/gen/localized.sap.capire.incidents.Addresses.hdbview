@@ -1,0 +1,11 @@
+VIEW localized_sap_capire_incidents_Addresses AS SELECT
+  L.ID,
+  L.createdAt,
+  L.createdBy,
+  L.modifiedAt,
+  L.modifiedBy,
+  L.customer_ID,
+  L.city,
+  L.postCode,
+  L.streetAddress
+FROM sap_capire_incidents_Addresses AS L
