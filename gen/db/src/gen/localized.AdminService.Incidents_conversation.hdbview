@@ -1,7 +1,0 @@
-VIEW localized_AdminService_Incidents_conversation AS SELECT
-  conversation_0.up__ID,
-  conversation_0.ID,
-  conversation_0."TIMESTAMP",
-  conversation_0.author,
-  conversation_0.message
-FROM localized_sap_capire_incidents_Incidents_conversation AS conversation_0

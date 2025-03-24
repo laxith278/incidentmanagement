@@ -623,7 +623,7 @@
       "type": "cds.String"
     },
     "ProcessorService": {
-      "@source": "srv/services.cds",
+      "@source": "srv/service.cds",
       "kind": "service",
       "@requires": "support"
     },
@@ -1088,7 +1088,7 @@
       }
     },
     "AdminService": {
-      "@source": "srv/services.cds",
+      "@source": "srv/service.cds",
       "kind": "service",
       "@requires": "admin"
     },
