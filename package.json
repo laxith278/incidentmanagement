@@ -14,6 +14,7 @@
   "devDependencies": {
     "@cap-js/cds-types": "^0.9.0",
     "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^8",
     "axios": "^1.8.4",
     "chai": "^4.5.0",
     "chai-as-promised": "^7.1.2",
@@ -55,7 +56,9 @@
         "auth": "xsuaa"
       },
       "html5-repo": true,
-      "html5-runtime": true
+      "html5-runtime": true,
+      "destinations": true,
+      "workzone": true
     },
     "sql": {
       "native_hana_associations": false
